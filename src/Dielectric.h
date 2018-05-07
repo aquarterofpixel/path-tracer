@@ -37,7 +37,7 @@ bool Dielectric::scatter( const Ray& ray, const Hit& hit, Vector3& attenuation, 
 		normal = -hit.normal;
 		refractionRatio = refractionIndex;
 		cosine = ray.direction().dot(hit.normal) / ray.direction().magnitude();
-		cosine = sqrt(1 - refractionIndex * refractionIndex*(1 - cosine * cosine));
+		cosine = sqrt(1 - refractionIndex * refractionIndex * (1 - cosine * cosine));
 	}
 	else
 	{
