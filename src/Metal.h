@@ -35,4 +35,4 @@ bool Metal::scatter( const Ray& ray, const Hit& hit, Vector3& attenuation, Ray& 
 	return scattered.direction().dot(hit.normal) > 0;
 }
 
-#endif /*METAL_H */
+#endif /* METAL_H */
