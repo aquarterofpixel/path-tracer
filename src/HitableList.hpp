@@ -1,7 +1,7 @@
-#ifndef HITABLE_LIST_H
-#define HITABLE_LIST_H
+#ifndef HITABLE_LIST_HPP
+#define HITABLE_LIST_HPP
 
-#include "Hitable.h"
+#include "Hitable.hpp"
 
 class HitableList : public Hitable
 {
@@ -48,4 +48,4 @@ bool HitableList::hit( const Ray& ray, float min, float max, Hit& hit ) const
 	return isHit;
 }
 
-#endif /* HITABLE_LIST_H */
+#endif /* HITABLE_LIST_HPP */

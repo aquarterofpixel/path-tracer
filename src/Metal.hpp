@@ -1,8 +1,8 @@
-#ifndef METAL_H
-#define METAL_H
+#ifndef METAL_HPP
+#define METAL_HPP
 
-#include "Random.h"
-#include "Material.h"
+#include "Random.hpp"
+#include "Material.hpp"
 
 class Metal : public Material
 {
@@ -35,4 +35,4 @@ bool Metal::scatter( const Ray& ray, const Hit& hit, Vector3& attenuation, Ray& 
 	return scattered.direction().dot(hit.normal) > 0;
 }
 
-#endif /* METAL_H */
+#endif /* METAL_HPP */

@@ -1,9 +1,9 @@
-#ifndef MATERIAL_H
-#define MATERIAL_H
+#ifndef MATERIAL_HPP
+#define MATERIAL_HPP
 
-#include "Random.h"
-#include "Ray.h"
-#include "Hitable.h"
+#include "Random.hpp"
+#include "Ray.hpp"
+#include "Hitable.hpp"
 
 struct Hit;
 
@@ -16,4 +16,4 @@ public:
 
 };
 
-#endif /* MATERIAL_H */
+#endif /* MATERIAL_HPP */

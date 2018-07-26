@@ -1,5 +1,5 @@
-#ifndef VECTOR3_H
-#define VECTOR3_H
+#ifndef VECTOR3_HPP
+#define VECTOR3_HPP
 
 #include <iostream>
 
@@ -258,4 +258,4 @@ Vector3 operator / ( const Vector3& v, const float f )
 	return Vector3(v[0] / f, v[1] / f, v[2] / f);
 }
 
-#endif /* VECTOR3_H */
+#endif /* VECTOR3_HPP */

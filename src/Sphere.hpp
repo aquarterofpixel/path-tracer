@@ -1,8 +1,8 @@
-#ifndef SPHERE_H
-#define SPHERE_H
+#ifndef SPHERE_HPP
+#define SPHERE_HPP
 
-#include "Hitable.h"
-#include "Material.h"
+#include "Hitable.hpp"
+#include "Material.hpp"
 
 class Sphere : public Hitable
 {
@@ -65,4 +65,4 @@ bool Sphere::hit( const Ray& ray, float min, float max, Hit& hit ) const
 	return false;
 }
 
-#endif /* SPHERE_H */
+#endif /* SPHERE_HPP */

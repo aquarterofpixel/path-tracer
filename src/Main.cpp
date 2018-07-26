@@ -2,18 +2,18 @@
 #include <fstream>
 #include <cfloat>
 
-#include "Math.h"
-#include "Random.h"
-#include "Vector3.h"
-#include "Ray.h"
-#include "Camera.h"
-#include "Hitable.h"
-#include "HitableList.h"
-#include "Sphere.h"
-#include "Material.h"
-#include "Lambertian.h"
-#include "Metal.h"
-#include "Dielectric.h"
+#include "Math.hpp"
+#include "Random.hpp"
+#include "Vector3.hpp"
+#include "Ray.hpp"
+#include "Camera.hpp"
+#include "Hitable.hpp"
+#include "HitableList.hpp"
+#include "Sphere.hpp"
+#include "Material.hpp"
+#include "Lambertian.hpp"
+#include "Metal.hpp"
+#include "Dielectric.hpp"
 
 using namespace std;
 

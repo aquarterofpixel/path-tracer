@@ -1,8 +1,8 @@
-#ifndef LAMBERTIAN_H
-#define LAMBERTIAN_H
+#ifndef LAMBERTIAN_HPP
+#define LAMBERTIAN_HPP
 
-#include "Random.h"
-#include "Material.h"
+#include "Random.hpp"
+#include "Material.hpp"
 
 class Lambertian : public Material
 {
@@ -33,4 +33,4 @@ bool Lambertian::scatter( const Ray& ray, const Hit& hit, Vector3& attenuation, 
 	return true;
 }
 
-#endif /* LAMBERTIAN_H */
+#endif /* LAMBERTIAN_HPP */

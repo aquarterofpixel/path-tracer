@@ -1,7 +1,7 @@
-#ifndef RAY_H
-#define RAY_H
+#ifndef RAY_HPP
+#define RAY_HPP
 
-#include "Vector3.h"
+#include "Vector3.hpp"
 
 class Ray
 {
@@ -47,4 +47,4 @@ Vector3 Ray::getPoint( float distance ) const
 	return a + distance * b;
 }
 
-#endif /* RAY_H */
+#endif /* RAY_HPP */

@@ -1,8 +1,8 @@
-#ifndef DIELECTRIC_H
-#define DIELECTRIC_H
+#ifndef DIELECTRIC_HPP
+#define DIELECTRIC_HPP
 
-#include "Random.h"
-#include "Material.h"
+#include "Random.hpp"
+#include "Material.hpp"
 
 class Dielectric : public Material
 {
@@ -97,4 +97,4 @@ float Dielectric::schlick( float cosine, float refractionIndex ) const
 	return r0 + (1 - r0) * pow((1 - cosine), 5);
 }
 
-#endif /* DIELECTRIC_H */
+#endif /* DIELECTRIC_HPP */

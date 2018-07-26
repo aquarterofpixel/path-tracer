@@ -1,12 +1,12 @@
 // Check Stephan T. Lavavej talk https://channel9.msdn.com/Events/GoingNative/2013/rand-Considered-Harmful for an in-depth explanation.
 
-#ifndef RANDOM_H
-#define RANDOM_H
+#ifndef RANDOM_HPP
+#define RANDOM_HPP
 
 #include <cfloat>
 #include <random>
 
-#include "Vector3.h"
+#include "Vector3.hpp"
 
 using namespace std;
 
@@ -78,4 +78,4 @@ Vector3 Random::sphere()
 	return p;
 }
 
-#endif /* RANDOM_H */
+#endif /* RANDOM_HPP */

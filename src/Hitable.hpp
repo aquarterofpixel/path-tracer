@@ -1,7 +1,7 @@
-#ifndef HITABLE_H
-#define HITABLE_H
+#ifndef HITABLE_HPP
+#define HITABLE_HPP
 
-#include "Ray.h"
+#include "Ray.hpp"
 
 class Material;
 
@@ -22,4 +22,4 @@ public:
 
 };
 
-#endif /* HITABLE_H */
+#endif /* HITABLE_HPP */

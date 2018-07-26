@@ -1,9 +1,9 @@
-#ifndef CAMERA_H
-#define CAMERA_H
+#ifndef CAMERA_HPP
+#define CAMERA_HPP
 
-#include "Math.h"
-#include "Random.h"
-#include "Ray.h"
+#include "Math.hpp"
+#include "Random.hpp"
+#include "Ray.hpp"
 
 class Camera
 {
@@ -51,4 +51,4 @@ private:
 
 };
 
-#endif /* CAMERA_H */
+#endif /* CAMERA_HPP */

@@ -1,5 +1,5 @@
-#ifndef MATH_H
-#define MATH_H
+#ifndef MATH_HPP
+#define MATH_HPP
 
 class Math
 {
@@ -24,4 +24,4 @@ Math::Math()
 {
 }
 
-#endif /* MATH_H */
+#endif /* MATH_HPP */
