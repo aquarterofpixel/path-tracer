@@ -97,7 +97,7 @@ int main()
 	list[2] = new Sphere(Vector3(1, 0, -1), 0.5, new Metal(Vector3(0.8, 0.6, 0.2), 0.0));
 	list[3] = new Sphere(Vector3(-1, 0, -1), 0.5, new Dielectric(1.5));
 	list[4] = new Sphere(Vector3(-1, 0, -1), -0.45, new Dielectric(1.5));
-	Hitable *world = new HitableList(list, 5);
+	Hitable* world = new HitableList(list, 5);
 	world = randomScene();
 
 	Vector3 lookfrom(13, 2, 3);
@@ -105,21 +105,6 @@ int main()
 	float focusDistance = 10;
 	float aperture = 0.1;
 	Camera camera(lookfrom, lookat, Vector3(0, 1, 0), 20, float(nx) / float(ny), aperture, focusDistance);
-
-	/*
-	Hitable* spheres[4];
-	spheres[0] = new Sphere(Vector3::zero, 0.5, new Lambertian(Vector3(1, 1, 1)));
-	spheres[1] = new Sphere(Vector3(1, 0, 0), 0.5, new Lambertian(Vector3(1, 0, 0)));
-	spheres[2] = new Sphere(Vector3(0, 1, 0), 0.5, new Lambertian(Vector3(0, 1, 0)));
-	spheres[3] = new Sphere(Vector3(0, 0, 1), 0.5, new Lambertian(Vector3(0, 0, 1)));
-	Hitable* world = new HitableList(spheres, 4);
-
-	Vector3 lookfrom(10, 4, 5);
-	Vector3 lookat(0, 0, 0);
-	float focusDistance = 10;
-	float aperture = 0.1;
-	Camera camera(lookfrom, lookat, Vector3(0, 1, 0), 20, float(nx) / float(ny), aperture, focusDistance);
-	*/
 
 	Random random;
 	out << "P3\n" << nx << " " << ny << "\n255\n";
