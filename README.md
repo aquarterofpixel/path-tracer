@@ -6,4 +6,4 @@ Simple implementation of the path tracer described in the ray tracing books of [
 - [ ] [Ray Tracing: The Next Week](https://github.com/petershirley/raytracingthenextweek)
 - [ ] [Ray Tracing: The Rest Of Your Life](https://github.com/petershirley/raytracingtherestofyourlife)
 
-![Render](render.png "I prefer left-handed coordinate systems :P")
+<p align="center"><img align="center" src="render.png" title="I prefer left-handed coordinate systems :P"></p>
